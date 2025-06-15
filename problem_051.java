@@ -5,7 +5,7 @@ public class problem_051 {
         int vount=0;
         int start=65;
         int end=69;
-        for(int i=1;i<=5;i++){
+        for(int i=1;i<=n;i++){
             if(i%2!=0){
                 
                 for(int j=end-count;j>=start+count;j--){
